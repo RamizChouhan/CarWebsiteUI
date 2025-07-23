@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car cluber</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div>
+         <nav class=" flex p-5 mt-5 mr-5 text-white text-2xl rounded absolute z-10 top-5 right-5 bg-[#161618]">
+    <!-- desktop navbar -->
+    <ul class="sm:flex hidden ">
+      <li class="mx-3 cursor-pointer text-amber-400 hover:text-white px-3 rounded hover:bg-amber-400"><a href="index.html">Home</a></li>
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="about.html">About</a></li>
+      <div class="group">
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="">Page</a></li>
+       <div class="hidden group-hover:block">
+        <ul class="absolute bg-[#161618] right-70 top-full mt-2 w-40 hidden group-hover:flex flex-col text-white p-2 rounded shadow-lg">  
+      <li class="cursor-pointer my-3 text-amber-400 hover:bg-amber-400"><a href="index.html">Home</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="about.html">About</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="">Page</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="car.html">Cars</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="contact.html">Contact</a></li>
+       <li class="cursor-pointer my-3 hover:text-amber-400"><a href="sign-up.html">Sign up</a></li>
+      </ul>
+       </div>
+      </div>
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="car.html">Cars</a></li>
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="contact.html">Contact</a></li>
+      <li class="cursor-pointer px-3  hover:bg-amber-400"><a href="sign-up.html">Sign up</a></li>
+    </ul>
+
+     <!-- mobile phone navbar -->
+     <div class="relative group">
+     <div class="sm:hidden" >
+      <a class="text-4xl" href="#">&#8801;</a>
+      </div>
+
+      <ul class="absolute bg-[#161618] right-5 top-full mt-2 w-40 hidden group-hover:flex flex-col text-white p-2 rounded shadow-lg">  
+      <li class="cursor-pointer my-3 text-amber-400 hover:bg-amber-400"><a href="index.html">Home</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="about.html">About</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="">Page</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="car.html">Cars</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="contact.html">Contact</a></li>
+      <li class="cursor-pointer my-3 hover:bg-amber-400"><a href="sign-up.html">Sign up</a></li>
+      </ul>
+    </div>
+  </nav>
+    </div>
+
+    <section class="intro mt-60 ">
+        <div class="text-center lg:text-center md:flex-wrap lg:px-52" >
+            <div>
+                <h2 class="text-4xl  font-semibold md:text-6xl lg:text-8xl">Who we are</h2>
+            </div>
+
+            <div id="text" class=" md:m-32 lg:m-32 ">
+                <p class="font-serif md:text-3xl lg:text-4xl ">Founded with a passion for making city travel easy and accessible,
+                we have grown to become a trusted car rental service in the area. 
+                Our mission is to provide seamless and affordable transportation options for every occasion, 
+                from daily commutes to special events. With a fleet of diverse, 
+                well-maintained vehicles and a commitment to customer satisfaction, 
+                we strive to make every rental experience smooth and stress-free.
+            </p>
+
+             <button class="bg-amber-300 p-3 rounded mt-5 font-bold" onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(text.innerText))">Speak</button>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="w-full h-auto grid md:grid-cols-2 lg:grid-cols-4 gap-10 justify-evenly">
+  
+  <div class="md:hidden-border-b-2 border-amber-500  lg:border-r-2">
+    <p class="text-6xl font-bold">
+      15+
+    </p>
+    <p class="text-4xl font-light opacity-65">
+      Happy customers who have trusted us
+    </p>
+  </div>
+
+  <div class="md:hidden-border-b-2 border-amber-500  lg:border-r-2">
+    <p class="text-6xl font-bold">
+     99%
+    </p>
+    <p class="text-4xl font-light opacity-65">
+      Our customers agree with our offer value
+    </p>
+  </div>
+
+  <div class="md:hidden-border-b-2 border-amber-500   lg:border-r-2">
+    <p class="text-6xl font-bold">
+      5,000+
+    </p>
+    <p class="text-4xl font-light opacity-65">
+      Trusted by thousands of satisfied clients
+    </p>
+  </div>
+
+  <div class="md:hidden-border-b-2 border-amber-500 lg:border-r-0">
+    <p class="text-6xl font-bold">
+     24/7
+    </p>
+    <p class="text-4xl font-light opacity-65">
+      Our dedicated support team is available
+    </p>
+  </div>
+</div>
+</div>
+
+
+<section class="intro mt-60 ">
+        <div class="text-center lg:text-center md:flex-wrap lg:px-52" >
+            <div>
+                <h2 class="text-4xl  font-semibold md:text-6xl lg:text-8xl">Our mission</h2>
+            </div>
+
+            <div id="text" class=" md:m-32 lg:m-32 ">
+                <p class="font-serif md:text-3xl lg:text-4xl ">
+               Our mission is to provide exceptional car rental services that make urban travel easy, 
+               affordable, and enjoyable. We aim to create a seamless experience by offering a diverse fleet of vehicles,
+               flexible rental options, and outstanding customer support. We are committed to being your trusted partner in city travel,
+                ensuring every journey is smooth, convenient, and tailored to your needs.
+            </p>
+
+             <button class="bg-amber-300 p-3 rounded mt-5 font-bold" onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(text.innerText))">Speak</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-12 px-4">
+  <div class="max-w-7xl mx-auto">    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <img src="image\car5.png" alt="Car showroom" class="rounded-xl shadow-md object-cover h-60 w-full">
+      <img src="image\car6.png" alt="Luxury cars" class="rounded-xl shadow-md object-cover h-60 w-full">
+      <img src="image\car7.png" alt="Car display" class="rounded-xl shadow-md object-cover h-60 w-full">
+    </div>
+  </div>
+</section>
+
+ <footer class="bg-gray-900 mt-10 px-6 py-10 text-white">
+  <!-- Brand & Newsletter -->
+  <div class="mb-10">
+    <h2 class="text-amber-400 font-bold text-2xl">Carent</h2>
+    <p class="font-light sm:text-2xl mt-2">Subscribe to our newsletter</p>
+    <div class="mt-4">
+      <input
+        type="email"
+        placeholder="Enter Your Email Address..."
+        class="border-2 border-gray-500 text-base sm:text-lg p-2 rounded w-full max-w-md"
+      />
+    </div>
+  </div>
+
+  <!-- Links Section -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+    <!-- Pages List -->
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Pages</h3>
+      <ul class="space-y-1">
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="index.html">Home</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="about.html">About</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"> <a href="car.html">Cars</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="contact.html">Contact</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="sign-up.html">sign-up</a></li>
+      </ul>
+    </div>
+
+    <!-- Utility Pages -->
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Utility Pages</h3>
+      <ul class="space-y-1">
+        <li><a href="#">Style Guide</a></li>
+        <li><a href="#">Instructions</a></li>
+        <li><a href="#">Licenses</a></li>
+        <li><a href="#">Changelog</a></li>
+        <li><a href="#">Link in Bio</a></li>
+        <li><a href="#">Coming Soon</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

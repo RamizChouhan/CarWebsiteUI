@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Cluber - Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class=" flex p-5 mt-5 mr-5 text-white text-2xl rounded absolute z-10 top-5 right-5 bg-[#161618]">
+    <!-- Desktop Menu -->
+    <ul class="sm:flex hidden space-x-3">
+      <li><a href="index.html" class="px-3 hover:bg-amber-400 hover:text-white rounded text-amber-400">Home</a></li>
+      <li><a href="about.html" class="px-3 hover:bg-amber-400 rounded">About</a></li>
+      <li class="group relative">
+        <a href="#" class="px-3 hover:bg-amber-400 rounded">Page</a>
+        <ul class="absolute hidden group-hover:flex flex-col mt-2 bg-[#161618] p-3 w-40 rounded shadow-xl text-white z-10">
+          <li><a href="index.html" class="hover:text-amber-400">Home</a></li>
+          <li><a href="about.html" class="hover:text-amber-400">About</a></li>
+          <li><a href="" class="hover:text-amber-400">Page</a></li>
+          <li><a href="car.html" class="hover:text-amber-400">Cars</a></li>
+          <li><a href="contact.html" class="hover:text-amber-400">Contact</a></li>
+          <li><a href="sign-up.html" class="hover:text-amber-400">Sign up</a></li>
+        </ul>
+      </li>
+      <li><a href="car.html" class="px-3 hover:bg-amber-400 rounded">Cars</a></li>
+      <li><a href="contact.html" class="px-3 hover:bg-amber-400 rounded">Contact</a></li>
+      <li><a href="sign-up.html" class="px-3 hover:bg-amber-400 rounded">Sign up</a></li>
+    </ul>
+
+    
+    <div class="sm:hidden relative group">
+      <a class="text-4xl cursor-pointer">&#8801;</a>
+      <ul class="absolute hidden group-hover:flex flex-col mt-2 bg-[#161618] p-3 w-40 rounded shadow-xl text-white z-10">
+        <li><a href="index.html" class="hover:text-amber-400">Home</a></li>
+        <li><a href="about.html" class="hover:text-amber-400">About</a></li>
+        <li><a href="#" class="hover:text-amber-400">Page</a></li>
+        <li><a href="car.html" class="hover:text-amber-400">Cars</a></li>
+        <li><a href="contact.html" class="hover:text-amber-400">Contact</a></li>
+        <li><a href="sign-up.html" class="hover:text-amber-400">Sign up</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
+   <div id="sign-up" class="w-full max-w-5xl mt-44 mx-auto bg-gray-100 p-5 rounded-2xl grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-24 hover:bg-amber-200 hover:text-black duration-1000">
+  
+  <div class="flex flex-col gap-4 items-center justify-center">
+    <img src="image\carsec7.png" alt="Image 1" class="size-full object-cover rounded-xl hover:scale-110 duration-1000">
+    
+  </div>
+
+
+  <div class="w-full max-w-md grid gap-5 ">
+    <h1 class="text-3xl font-bold text-white hover:text-black">Sign up</h1>
+    <p class="text-[#FFFFFFB3] hover:text-black">Access a 300-hour course by registering in our training program</p>
+    
+    <form action="#" class="space-y-5">
+      
+      
+      <div class="relative">
+        <div class="absolute top-1 left-1 bg-white hover:text-black rounded-full flex items-center justify-center p-2 text-blue-500 font-bold">
+          <i class="fa-solid fa-envelope-open"></i>
+        </div>
+        <input type="email" name="email" placeholder="Email address" class="w-full pl-12 pr-4 py-2 bg-[#FFFFFF30] hover:text-black rounded-full focus:outline-none focus:ring-1 focus:ring-blue-500">
+      </div>
+
+    
+      <div class="relative">
+        <div class="absolute top-1 left-1 bg-white hover:text-black rounded-full flex items-center justify-center p-2 text-blue-500 font-bold">
+          <i class="fa-solid fa-user-lock"></i>
+        </div>
+        <input type="password" name="password" placeholder="Enter password" class="w-full pl-12 pr-4 py-2 bg-[#FFFFFF30] hover:text-black rounded-full focus:outline-none focus:ring-1 focus:ring-blue-500">
+      </div>
+
+  
+      <button class="w-full bg-gradient-to-r from-blue-400 to-cyan-200 rounded-full py-2 text-white hover:text-black font-semibold">Sign up</button>
+    </form>
+
+    <div class="text-white/70 border-t border-gray-400 pt-5 space-y-3 text-sm hover:text-black">
+      <p>Already have an account? <a href="#" class="text-blue-500 font-semibold cursor-pointer">Log in</a></p>
+      <p>Forgot password? <a href="#" class="text-blue-500 font-semibold cursor-pointer">Reset password</a></p>
+      <p>Don't have a password? <a href="#" class="text-blue-500 font-semibold cursor-pointer">Set password</a></p>
+    </div>
+  </div>
+</div>
+
+
+<footer class="bg-gray-900 mt-56 px-6 py-10 text-white">
+    <div class="mb-10">
+      <h2 class="text-amber-400 font-bold text-2xl">Carent</h2>
+      <p class="font-light sm:text-2xl mt-2">Subscribe to our newsletter</p>
+      <div class="mt-4">
+        <input type="email" placeholder="Enter Your Email Address..." class="border-2 border-gray-500 text-base sm:text-lg p-2 rounded w-full max-w-md" />
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <div>
+        <h3 class="font-semibold text-xl mb-2">Pages</h3>
+        <ul class="space-y-1">
+          <li class="hover:text-amber-400"><a href="index.html">Home</a></li>
+          <li class="hover:text-amber-400"><a href="about.html">About</a></li>
+          <li class="hover:text-amber-400"><a href="car.html">Cars</a></li>
+          <li class="hover:text-amber-400"><a href="contact.html">Contact</a></li>
+          <li class="hover:text-amber-400"><a href="sign-up.html">sign-up</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-xl mb-2">Utility Pages</h3>
+        <ul class="space-y-1">
+          <li><a href="#">Style Guide</a></li>
+          <li><a href="#">Instructions</a></li>
+          <li><a href="#">Licenses</a></li>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">Link in Bio</a></li>
+          <li><a href="#">Coming Soon</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+
+ <div id="home" class="image-container relative py-5 px-5 bg-amber-200 rounded">
+    <img src="image/image.webp" class="w-full h-[550px] relative rounded-2xl " alt="">
+      
+    <div class="textpoint ">
+      <p class=" absolute top-90 left-10  text-white text-2xl sm:text-5xl">Quick and affordable <br> rentals</p>
+    </div>
+     <nav class=" flex p-5 mt-5 mr-5 text-white text-2xl rounded absolute z-10 top-5 right-5 bg-[#161618]">
+   
+    <!-- desktop navbar -->
+    <ul class="sm:flex hidden ">
+      <li class="mx-3 cursor-pointer text-amber-400 hover:text-white px-3 rounded hover:bg-amber-400"><a href="home">Home</a></li>
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="about.html">About</a></li>
+      <div class="group">
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="">Page</a></li>
+       <div class="hidden group-hover:block">
+        <ul class="absolute bg-[#161618] right-40 top-full mt-2 w-40 hidden group-hover:flex flex-col text-white p-2 rounded shadow-lg">  
+      <li class="cursor-pointer my-3 text-amber-400 hover:bg-amber-400"><a href="home">Home</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="about.html">About</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="">Page</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="car.html">Cars</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="contact.html">Contact</a></li>
+       <li class="cursor-pointer my-3 hover:text-amber-400"><a href="sign-up.html">Sign up</a></li>
+      </ul>
+       </div>
+      </div>
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="car.html">Cars</a></li>
+      <li class="mx-3 cursor-pointer hover:bg-amber-400 px-3 rounded"><a href="contact.html">Contact</a></li>
+      <li class="cursor-pointer px-3  hover:bg-amber-400"><a href="sign-up.html">Sign up</a></li>
+    </ul>
+
+     <!-- mobile phone navbar -->
+     <div class="relative group">
+     <div class="sm:hidden" >
+      <a class="text-4xl" href="#">&#8801;</a>
+      </div>
+
+      <ul class="absolute bg-[#161618] right-5 top-full mt-2 w-40 hidden group-hover:flex flex-col text-white p-2 rounded shadow-lg">  
+      <li class="cursor-pointer my-3 text-amber-400 hover:bg-amber-400"><a href="home">Home</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="about.html">About</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="">Page</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="car.html">Cars</a></li>
+      <li class="cursor-pointer my-3 hover:text-amber-400"><a href="contact.html">Contact</a></li>
+      <li class="cursor-pointer my-3 hover:bg-amber-400"><a href="sign-up.html">Sign up</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+ <section class="mt-10">
+  <h2 class="text-center text-x1 sm:text-3xl font-medium ">Enjoy flexibility and unbeatable <br> rates with our city car rentals</h2>
+
+  <div class="section-info-container mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-y-10">
+
+    <div class=" ">
+      <img src="image\section1.svg" alt="" class="mx-auto block py-3">
+          <h3 class="font-bold text-center ">
+            Well maintained vehicles
+          </h3>
+          <p class="text-center">
+            All our cars are well-maintained and regularly serviced,<br>
+             ensuring safe and smooth driving.
+          </p>
+    </div>
+
+        <div class="">
+      <img src="image\sec2.svg" alt="" class="mx-auto block py-3">
+          <h3 class="font-bold text-center ">
+           Easy online booking
+          </h3>
+          <p class="text-center">
+           Book your car in minutes with <br> our user-friendly online <br> platform. Fast, simple, and <br> convenient!
+          </p>
+    </div>
+
+
+        <div class="">
+      <img src="image\sec3.svg" alt="" class="mx-auto block py-3">
+          <h3 class="font-bold text-center ">
+            Affordable pricing
+          </h3>
+          <p class="text-center">
+           Enjoy competitive rates with no <br> hidden fees. Rent the perfect <br>car without breaking the bank
+          </p>
+    </div>
+
+
+        <div class="">
+      <img src="image\sec4.svg" alt="" class="mx-auto block py-3">
+          <h3 class="font-bold text-center ">
+           24/7 support
+          </h3>
+          <p class="text-center">
+           We’re here to assist you anytime, <br> anywhere. Drive with peace of <br> mind knowing help is just a call <br> away.
+          </p>
+    </div>
+  </div>
+ </section>
+
+ <section class="product h-auto sm:w-full mt-16 ">
+   <h2 class="text-xl font-bold ml-16 sm:text-3xl">Our rental car collection</h2>
+   <div class="ml-32 sm:hidden">
+    <button class="bg-amber-400 border-none py-2 px-3 rounded  ">view all vehicles</button>
+   </div>
+
+    <div class="car-container w-full grid grid-cols-1 sm:grid-cols-3  gap-6 p-4">
+  <div class="first-car  bg-gray-200 rounded-2xl overflow-hidden">
+    <img src="image\car1.avif" alt="" class="w-full h-auto hover:scale-110 duration-1000 " >
+    <div class="group">
+   <button class="bg-amber-400 border-none mx-auto my-4 px-3 w-20 rounded font-bold text-2xl block">view</button>
+    <div class="hidden group-hover:block">
+     <div class="bg-amber-400 text-white mx-auto my-4 px-3 w-40 rounded font-bold text-center ml-auto ">
+      <h3>compact city cruiser </h3><hr>
+      <p>4 seat</p><hr>
+      <p>Gearbox Manual</p><hr>
+      <p>Luggage 2 bages</p>
+      </div> 
+    </div>
+    </div>
+  </div>
+
+  <div class="first-car  bg-gray-200 rounded-2xl overflow-hidden">
+    <img src="image\car2.avif" alt="" class="w-full h-auto hover:scale-110 duration-1000">
+     <div class="group">
+   <button class="bg-amber-400 border-none mx-auto my-4 px-3 w-20 rounded font-bold text-2xl block">view</button>
+    <div class="hidden group-hover:block">
+     <div class="bg-amber-400 text-white mx-auto my-4 px-3 w-40 rounded font-bold text-center ml-auto ">
+      <h3>Spacious SUV</h3><hr>
+      <p>7 seat</p><hr>
+      <p>Gearbox Automatic</p><hr>
+      <p>Luggage 4 bages</p>
+      </div> 
+    </div>
+    </div>
+  </div>
+
+  <div class="first-car bg-gray-200 rounded-2xl overflow-hidden">
+    <img src="image\car3.avif" alt="" class="w-full h-auto hover:scale-110  duration-1000">
+   <div class="group">
+  <button class="bg-amber-400 border-none mx-auto my-4 px-3 w-20 rounded font-bold text-2xl block">view</button>
+    <div class="hidden group-hover:block">
+      <div class="bg-amber-400 text-white mx-auto my-4 px-3 w-40 rounded font-bold text-center ml-auto">
+      <h3>Luxury Sedan</h3><hr>
+      <p>5 seat</p><hr>
+      <p>Gearbox Automatic</p><hr>
+      <p>Luggage 2 bages</p>
+      </div> 
+    </div>
+    </div>
+  </div>
+
+  <div class="first-car  bg-gray-200 rounded-2xl overflow-hidden lg:hidden">
+    <img src="image\car4.png" alt="" class="w-full h-auto hover:scale-110  duration-1000">
+     <div class="group">
+   <button class="bg-amber-400 border-none mx-auto my-4 px-3 w-20 rounded font-bold text-2xl block">view</button>
+      <div class="hidden group-hover:block">
+      <div class="bg-amber-400 text-white mx-auto my-4 px-3 w-40 rounded font-bold text-center ml-auto ">
+      <h3>Mercedes</h3><hr>
+      <p>4 seat</p><hr>
+      <p>Gearbox Manual</p><hr>
+      <p>Luggage 2 bages</p>
+      </div> 
+    </div>
+    </div>
+
+  </div>
+
+  <div class="first-car bg-gray-200 rounded-2xl overflow-hidden lg:hidden">
+    <img src="image\car5.avif" alt="" class="w-full h-auto hover:scale-110 duration-1000">
+ <div class="group">
+  <button class="bg-amber-400 border-none mx-auto my-4 px-3 w-20 rounded font-bold text-2xl block">view</button>
+    <div class="hidden group-hover:block">
+  <div class="bg-amber-400 text-white mx-auto my-4 px-3 w-40 rounded font-bold text-center ml-auto ">
+      <h3>Hyundai Verna</h3><hr>
+      <p>4 seat</p><hr>
+      <p>Gearbox Automatic</p><hr>
+      <p>Luggage 3 bages</p>
+      </div> 
+    </div>
+    </div>
+  </div>
+
+  <div class="first-car  bg-gray-200 rounded-2xl overflow-hidden lg:hidden">
+    <img src="image\car2.avif" alt="" class="w-full h-auto hover:scale-110  duration-1000">
+    <div class="group">
+   <button class="bg-amber-400 border-none mx-auto my-4 px-3 w-20 rounded font-bold text-2xl block">view</button>
+    <div class="hidden group-hover:block dur">
+      <div class="bg-amber-400 text-white mx-auto my-4 px-3 w-40 rounded font-bold text-center ml-auto ">
+      <h3>compact city cruiser </h3><hr>
+      <p>4 seat</p><hr>
+      <p>Gearbox Manual</p><hr>
+      <p>Luggage 2 bages</p>
+      </div> 
+    </div>
+    </div>
+
+  </div>
+</div>
+ </section>
+
+   <section class="border border-amber-500 w-full h-auto mt-28 ">
+     <div>
+        <h2 class="font-extrabold text-2xl ml-5 mb-10">Our rental categories</h2>
+      </div>
+     <div class="grid w-auto overflow-x-scroll gap-x-5 grid-cols-2 md:grid-cols-4 md:justify-between lg:justify-between md:ml-20">
+      <div class="w-52 md:w-64 md:h-72 lg:w-64 lg:h-72 rounded-2xl bg-gray-200 hover:bg-amber-300 duration-1000 text-center">
+        <img src="image\category-1.avif" alt="" class="size-32 ml-10 mt-10 rounded-full gap-x-4 md:size-44 lg:size-44 ">
+        <p class="mb-10 font-bold text-2xl">Business<p>
+      </div>
+
+       <div class="w-52 md:w-64 md:h-72 lg:w-64 lg:h-72 rounded-2xl bg-gray-200 hover:bg-amber-300 duration-1000 text-center">
+        <img src="image\category-2.avif" alt="" class="size-32 ml-10 mt-10 rounded-full gap-x-4 md:size-44 lg:size-44">
+        <p class="mb-10 font-bold text-2xl">Family<p>
+      </div>
+
+       <div class="w-52 md:w-64 md:h-72 lg:w-64 lg:h-72 rounded-2xl bg-gray-200 hover:bg-amber-300 duration-1000 text-center">
+        <img src="image\category-3.avif" alt="" class="size-32  ml-10 mt-10 rounded-full gap-x-4 md:size-44 lg:size-44">
+        <p class="mb-10 font-bold text-2xl">Adventure<p>
+      </div>
+
+
+       <div class="w-52 md:w-64 md:h-72 lg:w-64 lg:h-72 rounded-2xl bg-gray-200 hover:bg-amber-300 duration-1000 text-center">
+        <img src="image\category-4.avif" alt="" class="size-32 ml-10 mt-10 rounded-full gap-x-4 md:size-44 lg:size-44">
+        <p class="mb-10 font-bold text-2xl">Wedding<p>
+      </div>
+
+     </div>
+   </section>
+
+  <div id="sign-up" class="w-full max-w-6xl mt-20 mx-auto bg-gray-100 p-5 rounded-2xl grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-24 hover:bg-amber-200 hover:text-black duration-1000">
+  
+  <div class="flex flex-col gap-4 items-center justify-center">
+    <img src="image\carsec7.png" alt="Image 1" class="size-full object-cover rounded-xl hover:scale-150 duration-1000">
+    
+  </div>
+
+
+  <div class="w-full max-w-md grid gap-5 ">
+    <h1 class="text-3xl font-bold text-white hover:text-black">Sign up</h1>
+    <p class="text-[#FFFFFFB3] hover:text-black">Access a 300-hour course by registering in our training program</p>
+    
+    <form action="#" class="space-y-5">
+      
+      
+      <div class="relative">
+        <div class="absolute top-1 left-1 bg-white hover:text-black rounded-full flex items-center justify-center p-2 text-blue-500 font-bold">
+          <i class="fa-solid fa-envelope-open"></i>
+        </div>
+        <input type="email" name="email" placeholder="Email address" class="w-full pl-12 pr-4 py-2 bg-[#FFFFFF30] hover:text-black rounded-full focus:outline-none focus:ring-1 focus:ring-blue-500">
+      </div>
+
+    
+      <div class="relative">
+        <div class="absolute top-1 left-1 bg-white hover:text-black rounded-full flex items-center justify-center p-2 text-blue-500 font-bold">
+          <i class="fa-solid fa-user-lock"></i>
+        </div>
+        <input type="password" name="password" placeholder="Enter password" class="w-full pl-12 pr-4 py-2 bg-[#FFFFFF30] hover:text-black rounded-full focus:outline-none focus:ring-1 focus:ring-blue-500">
+      </div>
+
+  
+      <button class="w-full bg-gradient-to-r from-blue-400 to-cyan-200 rounded-full py-2 text-white hover:text-black font-semibold">Sign up</button>
+    </form>
+
+    <div class="text-white/70 border-t border-gray-400 pt-5 space-y-3 text-sm hover:text-black">
+      <p>Already have an account? <a href="#" class="text-blue-500 font-semibold cursor-pointer">Log in</a></p>
+      <p>Forgot password? <a href="#" class="text-blue-500 font-semibold cursor-pointer">Reset password</a></p>
+      <p>Don't have a password? <a href="#" class="text-blue-500 font-semibold cursor-pointer">Set password</a></p>
+    </div>
+  </div>
+</div>
+
+
+ <footer class="bg-gray-900 mt-10 px-6 py-10 text-white">
+  <!-- Brand & Newsletter -->
+  <div class="mb-10">
+    <h2 class="text-amber-400 font-bold text-2xl">Carent</h2>
+    <p class="font-light sm:text-2xl mt-2">Subscribe to our newsletter</p>
+    <div class="mt-4">
+      <input
+        type="email"
+        placeholder="Enter Your Email Address..."
+        class="border-2 border-gray-500 text-base sm:text-lg p-2 rounded w-full max-w-md"
+      />
+    </div>
+  </div>
+
+  <!-- Links Section -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+    <!-- Pages List -->
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Pages</h3>
+      <ul class="space-y-1">
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="home">Home</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="about.html">About</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"> <a href="car.html">Cars</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="contact.html">Contact</a></li>
+        <li class="cursor-pointer my-3 hover:text-amber-400"><a href="sign-up.html">sign-up/a></li>
+      </ul>
+    </div>
+
+    <!-- Utility Pages -->
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Utility Pages</h3>
+      <ul class="space-y-1">
+        <li><a href="#">Style Guide</a></li>
+        <li><a href="#">Instructions</a></li>
+        <li><a href="#">Licenses</a></li>
+        <li><a href="#">Changelog</a></li>
+        <li><a href="#">Link in Bio</a></li>
+        <li><a href="#">Coming Soon</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
